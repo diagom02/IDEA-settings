@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		// Set the default language to run.
+		"code-runner.defaultLanguage": "",
+		// Set the executor of each language.
+		"code-runner.executorMap": {
+			"python": "C:/Scripts_Creator/Player-Assistent/.venv/Scripts/python.exe -u",
+		},
+		// Whether to use the directory of the file to be executed as the working directory.
+		// "code-runner.fileDirectoryAsCwd": true,
+		// Whether to preserve focus on code editor after code run is triggered.
+		// "code-runner.preserveFocus": true,
+		// Whether to run code in Integrated Terminal.
+		// "code-runner.runInTerminal": false,
+		// Whether to save all files before running.
+		// "code-runner.saveAllFilesBeforeRun": true,
+		// Whether to save the current file before running.
+		// "code-runner.saveFileBeforeRun": true,
+	}

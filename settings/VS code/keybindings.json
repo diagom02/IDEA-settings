@@ -1,0 +1,19 @@
+// Coloque sus atajos de teclado en este archivo para sobreescribir los valores predeterminadosauto[]
+[
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+alt+s",
+        "command": "code-runner.stop"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "python.execInTerminal-icon"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "code-runner.run"
+    },
+]

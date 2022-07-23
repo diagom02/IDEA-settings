@@ -1,0 +1,25 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+	"variables":
+	{
+        "dark_gray": "#333",
+        "teal": "hsla(170, 70%, 45%, 1)",
+        "blue2": "hsla(190, 81%, 67%, .2)",
+        "gray2": "hsl(255, 0%, 60%)",
+        "black4": "hsl(70, 8%, 14%)",
+        "magenta2": "hsla(335, 100%, 65%, 1)",
+        "yellow6": "hsl(55, 11%, 17%)"
+	},
+	"globals":
+	{
+        "caret": "var(blue)",
+        "selection": "var(blue2)",
+        "selection_border": "var(gray2)",
+        "background": "var(black4)",
+        "line_highlight": "var(yellow6)",
+	},
+	"rules":
+    [
+      
+	]
+}

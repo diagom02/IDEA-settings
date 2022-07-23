@@ -1,0 +1,49 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 15,
+    // "python.pythonPath": "C:/Users/Main/AppData/Local/Programs/Python/Python37/python.exe",
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.linting.enabled": false,
+    // "code-runner.showExecutionMessage": false,
+    // "code-runner.ignoreSelection": true,
+    // "code-runner.saveFileBeforeRun": true,
+    "[plaintext]": {
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        }
+    },
+    "editor.quickSuggestionsDelay": 100,
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": true,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false,
+    // "workbench.settings.openDefaultSettings": true,
+    // "workbench.settings.editor": "json",
+    // "workbench.statusBar.feedback.visible": false,
+    "workbench.startupEditor": "newUntitledFile",
+    // "python.defaultInterpreterPath": "pthon -u",
+    "files.autoSave": "onFocusChange",
+    "workbench.colorTheme": "Theme (Italic)",
+    "editor.smoothScrolling": true,
+    "editor.tabSize": 3,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "python.linting.pylintCategorySeverity.convention": "Hint",
+    // Whether to clear previous output before each run.
+    "code-runner.clearPreviousOutput": true,
+    // Set the default language to run.
+    "code-runner.defaultLanguage": "",
+    // Whether to use the directory of the file to be executed as the working directory.
+    "code-runner.fileDirectoryAsCwd": true,
+    // Whether to run code in Integrated Terminal.
+    "code-runner.runInTerminal": false,
+    // Whether to preserve focus on code editor after code run is triggered.
+    "code-runner.preserveFocus": true,
+    // Whether to save all files before running.
+    "code-runner.saveAllFilesBeforeRun": true,
+    // Whether to save the current file before running.
+    "code-runner.saveFileBeforeRun": true,
+}

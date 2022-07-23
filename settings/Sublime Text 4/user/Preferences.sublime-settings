@@ -1,0 +1,25 @@
+{
+    "theme": "Seti_orig.sublime-theme",
+
+    "caret_extra_width": 2,                 //  to have a wider/thicker caret
+    "caret_extra_bottom": 3,                //  to make the caret = to the line height (the theme currently support 0,3,5)
+    "caret_extra_top": 3,
+
+    "save_on_focus_lost": true,
+    "overlay_scroll_bars": "enabled",       //  to show scrollbars only when scrolling
+    "highlight_line": true,                 //  to highlight the current line
+    "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+    "ignored_packages":
+    [
+		"Vintage",
+    ],
+    "font_size": 12,
+    "margin": 3,
+    "tab_size": 3,
+    "added_words":
+    [
+		"hexdigest"
+    ],
+    "dark_theme": "Adaptive.sublime-theme",
+    "light_theme": "Default Dark.sublime-theme",
+}
