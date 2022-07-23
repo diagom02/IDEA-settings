@@ -1,37 +1,24 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.fontSize": 15,
-    // "python.pythonPath": "C:/Users/Main/AppData/Local/Programs/Python/Python37/python.exe",
-    "python.formatting.provider": "black",
-    "editor.formatOnSave": true,
-    "python.linting.enabled": false,
-    // "code-runner.showExecutionMessage": false,
-    // "code-runner.ignoreSelection": true,
-    // "code-runner.saveFileBeforeRun": true,
-    "[plaintext]": {
-        "editor.quickSuggestions": {
-            "comments": "off",
-            "strings": "off",
-            "other": "off"
-        }
-    },
-    "editor.quickSuggestionsDelay": 100,
-    "zenMode.centerLayout": false,
-    "zenMode.fullScreen": true,
-    "zenMode.hideLineNumbers": false,
-    "zenMode.hideTabs": false,
-    // "workbench.settings.openDefaultSettings": true,
-    // "workbench.settings.editor": "json",
-    // "workbench.statusBar.feedback.visible": false,
-    "workbench.startupEditor": "newUntitledFile",
-    // "python.defaultInterpreterPath": "pthon -u",
+    // Determina el editor de configuración que se va a usar de forma predeterminada.
+    "workbench.settings.editor": "json", // - ui: mode;  json: mode
     "files.autoSave": "onFocusChange",
+    "workbench.startupEditor": "none",
     "workbench.colorTheme": "Theme (Italic)",
+    "workbench.iconTheme": "material-icon-theme",
+    "python.defaultInterpreterPath": "python",
+	// Indica si se deben lintar los archivos de Python.
+    "python.linting.enabled": false,
+	// Proveedor de formato. Entre las opciones posibles se incluyen "autopep8", "black" y "yapf".
+    "python.formatting.provider": "black",
+	// Formatear archivo al guardar: debe haber un formateador disponible, el archivo no se debe guardar después de un retardo y no se debe cerrar el editor.
+    "editor.formatOnSave": false,
     "editor.smoothScrolling": true,
-    "editor.tabSize": 3,
     "editor.multiCursorModifier": "ctrlCmd",
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
-    "python.linting.pylintCategorySeverity.convention": "Hint",
+    "editor.fontSize": 15,
+    // Set the executor of each language.
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u \"$fileName\"",
+    },
     // Whether to clear previous output before each run.
     "code-runner.clearPreviousOutput": true,
     // Set the default language to run.
@@ -46,4 +33,20 @@
     "code-runner.saveAllFilesBeforeRun": true,
     // Whether to save the current file before running.
     "code-runner.saveFileBeforeRun": true,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "[plaintext]": {
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        }
+    },
 }
+// $workspaceRoot: The path of the folder opened in VS Code
+// $dir: The directory of the code file being run
+// $dirWithoutTrailingSlash: The directory of the code file being run without a trailing slash
+// $fullFileName: The full name of the code file being run
+// $fileName: The base name of the code file being run, that is the file without the directory
+// $fileNameWithoutExt: The base name of the code file being run without its extension
+// $driveLetter: The drive letter of the code file being run (Windows only)
+// $pythonPath: The path of Python interpreter (set by Python: Select Interpreter command)
