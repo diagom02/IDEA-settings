@@ -1,7 +1,7 @@
 {
     // Determina el editor de configuración que se va a usar de forma predeterminada.
-    "workbench.settings.editor": "json", // - ui: mode;  json: mode
     "files.autoSave": "onFocusChange",
+    "workbench.settings.editor": "json", // - ui: mode;  json: mode
     "workbench.startupEditor": "none",
     "workbench.colorTheme": "Theme (Italic)",
     "workbench.iconTheme": "material-icon-theme",
@@ -17,9 +17,12 @@
     "editor.fontSize": 15,
     "editor.tabSize": 3,
 	"editor.insertSpaces": false,
+	// Specify the full path to `makensis`
+	"nsis.compiler.pathToMakensis": "C:\\PROGRA~2\\NSIS\\makensis",
     // Set the executor of each language.
     "code-runner.executorMap": {
         "python": "$pythonPath -u \"$fileName\"",
+        "nsis": "C:\\PROGRA~2\\NSIS\\makensis \"$fileName\"",
     },
     // Whether to clear previous output before each run.
     "code-runner.clearPreviousOutput": true,
@@ -34,7 +37,7 @@
     // Whether to preserve focus on code editor after code run is triggered.
     "code-runner.preserveFocus": true,
     // Whether to save all files before running.
-    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveAllFilesBeforeRun": false,
     // Whether to save the current file before running.
     "code-runner.saveFileBeforeRun": true,
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
@@ -46,6 +49,7 @@
         }
     },
     "git.confirmSync": false,
+    "gitlens.codeLens.enabled": false,
 }
 // $workspaceRoot: The path of the folder opened in VS Code
 // $dir: The directory of the code file being run
